@@ -1,16 +1,45 @@
-# React + Vite
+# 🧭 Analytics Capability Matrix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Website:** [https://jtabz.github.io/analytics-capability-matrix/](https://jtabz.github.io/analytics-capability-matrix/)
 
-Currently, two official plugins are available:
+## 📖 What Is This?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The **Analytics Capability Matrix** is a diagnostic and discovery tool for sales teams (AEs and SEs). 
 
-## React Compiler
+It moves the customer conversation away from generic "BI features" and toward specific **organizational maturity**. Instead of asking "Do you need a dashboard?", this tool helps you identify where a customer sits on the spectrum of analytics sophistication—from basic reporting to AI-driven automation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Purpose & Goals
 
-## Expanding the ESLint configuration
+The primary goal is **accurate diagnosis**. You cannot prescribe the right solution (or sell the premium value) if you don't understand the customer's current capabilities.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **For Discovery:** Use it to map out exactly what the customer is doing today versus where they want to go.
+* **For Gap Analysis:** Visually highlight the "missing links" in their strategy (e.g., "You have great dashboards, but no data governance—that is why your adoption is low").
+* **For Upsell:** Justify why they need advanced features (like Data Cloud or Tableau Pulse) by showing the specific capability unlock they provide.
+
+## 🧩 How It Works
+
+The matrix likely breaks down analytics maturity into key dimensions. While tailored for conversation, it typically follows a structure similar to:
+
+### The 4 Stages of Maturity
+1.  **Descriptive (Hindsight):** "What happened?" (Static Reports, Excel)
+2.  **Diagnostic (Insight):** "Why did it happen?" (Interactive Dashboards, Drill-downs)
+3.  **Predictive (Foresight):** "What will happen?" (Trends, Forecasting)
+4.  **Prescriptive (Action):** "How can we make it happen?" (AI Agents, Automated Workflows)
+
+### Core Dimensions
+* **Technology:** The tools they own vs. what they need.
+* **Data Strategy:** How they handle cleanliness, security, and modeling.
+* **People/Process:** The skills of their team and their culture of adoption.
+
+## 👥 Who Is This For?
+
+* **Account Executives:** To qualify deals. If a customer is stuck in "Stage 1," selling them a "Stage 4" AI vision without a roadmap will fail.
+* **Solution Engineers:** To scope the Proof of Concept (POC). If they lack basic data capabilities, the demo must focus on *ease of data prep* before showing flashy AI.
+* **Customer Success:** To build a "Success Plan" that moves the client up the ladder over time.
+
+## 🚀 Usage Strategy
+
+**"Don't sell the feature. Sell the move to the next box."**
+
+Use this webpage during a whiteboard session or Zoom call to say:
+> *"Most organizations we work with are here [Stage 2]. You mentioned you want AI [Stage 4]. Let's look at the capabilities we need to build together to bridge that gap."*
